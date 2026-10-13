@@ -1,6 +1,6 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-
+import profilePhoto from "./assets/Profile.jpeg";
 import "./App.css";
 
 import {
@@ -1158,7 +1158,7 @@ function App() {
 
                      <div className="photo-frame">
 
-                        <img src="/src/assets/Profile.jpeg" alt="Sanchitha" />
+                        <img src={profilePhoto} alt="Sanchitha" />
 
                      </div>
 
